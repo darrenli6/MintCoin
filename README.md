@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ### 发行ERC20代币
 - [固定总量代币](./README/ERC20/ERC20FixedSupply.md)
@@ -59,9 +59,5 @@ truffle(develop)> compile   //编译合约
 truffle(develop)> test      //测试合约
 truffle(develop)> migrate   //布署合约
 ```
-### 布署到主网 
-- [链接](https://github.com/Fankouzu/smart-contract/tree/master/Solidity%20Lesson%2003) 
-- [视频课](https://www.bilibili.com/video/BV1vJ41117ck/)
----
-
+ 
 
