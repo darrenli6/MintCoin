@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ## 有配额的众筹
 > 众筹代币是指在代币发行后,任何一个地址都可以向众筹地址使用ETH购买代币.
@@ -9,11 +9,11 @@
 
 > 有配额的众筹是指购买代币的账户必须在设置配额后才可以购买代币
 
-[合约文件: IndividuallyCappedCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/IndividuallyCappedCrowdsale.sol)
+[合约文件: IndividuallyCappedCrowdsale.sol](https://github.com/darrenli6/MintCoin/blob/master/contracts/Crowdsale/IndividuallyCappedCrowdsale.sol)
 
-[测试脚本: IndividuallyCappedCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/IndividuallyCappedCrowdsale.js)
+[测试脚本: IndividuallyCappedCrowdsale.js](https://github.com/darrenli6/MintCoin/blob/master/test/Crowdsale/IndividuallyCappedCrowdsale.js)
 
-[布署脚本: 12_deploy_IndividuallyCappedCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/migrations/12_deploy_IndividuallyCappedCrowdsale.js)
+[布署脚本: 12_deploy_IndividuallyCappedCrowdsale.js](https://github.com/darrenli6/MintCoin/blob/master/migrations/12_deploy_IndividuallyCappedCrowdsale.js)
 
 ### 在布署合约时定义以下变量
 ```javascript

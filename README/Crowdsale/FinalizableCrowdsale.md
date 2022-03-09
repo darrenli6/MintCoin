@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ## 可终结的众筹
 > 众筹代币是指在代币发行后,任何一个地址都可以向众筹地址使用ETH购买代币.
@@ -9,11 +9,11 @@
 
 > 可终结的众筹是指在有时限的众筹的基础上增加了结束众筹的方法
 
-[合约文件: FinalizableCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/FinalizableCrowdsale.sol)
+[合约文件: FinalizableCrowdsale.sol](https://github.com/darrenli6/MintCoin/blob/master/contracts/Crowdsale/FinalizableCrowdsale.sol)
 
-[测试脚本: FinalizableCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/FinalizableCrowdsale.js)
+[测试脚本: FinalizableCrowdsale.js](https://github.com/darrenli6/MintCoin/blob/master/test/Crowdsale/FinalizableCrowdsale.js)
 
-[布署脚本: 16_deploy_FinalizableCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/migrations/16_deploy_FinalizableCrowdsale.js)
+[布署脚本: 16_deploy_FinalizableCrowdsale.js](https://github.com/darrenli6/MintCoin/blob/master/migrations/16_deploy_FinalizableCrowdsale.js)
 
 ### 额外增加
 > 在FinalizableCrowdsale.sol合约文件中可以设置一个结束众筹的方法,因为是内部函数,所以只能在合约文件中设置.

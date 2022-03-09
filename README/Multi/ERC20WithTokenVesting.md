@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ## 分期释放合约
 > 分期释放合约类似于锁仓合约,区别是被锁定的ERC20代币将按照合约布署时规定的时间周期逐步释放给受益人.
@@ -7,11 +7,11 @@
 > 在`cliffDuration`之后的任何时间都可以调用释放方法,释放数额的计算方法为: 锁仓总数额 * ((当前时间 - 开始时间) / 持续时间) - 已释放数
 
 
-[合约文件: ERC20WithTokenVesting.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Multi/ERC20WithTokenVesting.sol)
+[合约文件: ERC20WithTokenVesting.sol](https://github.com/darrenli6/MintCoin/blob/master/contracts/Multi/ERC20WithTokenVesting.sol)
 
-[测试脚本: ERC20WithTokenVesting.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Multi/ERC20WithTokenVesting.js)
+[测试脚本: ERC20WithTokenVesting.js](https://github.com/darrenli6/MintCoin/blob/master/test/Multi/ERC20WithTokenVesting.js)
 
-[布署脚本: 28_deploy_ERC20WithTokenVesting.js](https://github.com/Fankouzu/MintCoin/blob/master/migrations/28_deploy_ERC20WithTokenVesting.js)
+[布署脚本: 28_deploy_ERC20WithTokenVesting.js](https://github.com/darrenli6/MintCoin/blob/master/migrations/28_deploy_ERC20WithTokenVesting.js)
 
 ### 在布署合约时定义以下变量
 ```javascript

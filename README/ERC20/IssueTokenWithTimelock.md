@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ## 发行代币同时锁仓
 ### 注意
@@ -8,11 +8,11 @@
 
 >以上两点已经在布署脚本中设置好了
 
-[合约文件: ERC20WithTokenTimelock.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/ERC20/ERC20WithTokenTimelock.sol)
+[合约文件: ERC20WithTokenTimelock.sol](https://github.com/darrenli6/MintCoin/blob/master/contracts/ERC20/ERC20WithTokenTimelock.sol)
 
-[测试脚本: ERC20WithTokenTimelock.js](https://github.com/Fankouzu/MintCoin/blob/master/test/ERC20/ERC20WithTokenTimelock.js)
+[测试脚本: ERC20WithTokenTimelock.js](https://github.com/darrenli6/MintCoin/blob/master/test/ERC20/ERC20WithTokenTimelock.js)
 
-[布署脚本: 7_deploy_IssueTokenWithTimelock.js](https://github.com/Fankouzu/MintCoin/blob/master/migrations/7_deploy_IssueTokenWithTimelock.js)
+[布署脚本: 7_deploy_IssueTokenWithTimelock.js](https://github.com/darrenli6/MintCoin/blob/master/migrations/7_deploy_IssueTokenWithTimelock.js)
 
 ### 在布署合约时定义以下变量
 ```javascript

@@ -1,4 +1,4 @@
-# MintCoin崔棉大师的花式发币法
+# 花式发币法
 
 ## 不成功退款的众筹
 > 众筹代币是指在代币发行后,任何一个地址都可以向众筹地址使用ETH购买代币.
@@ -21,13 +21,13 @@
 7. 没达到众筹目标,在众筹结束后可以退款
 8. 达到众筹目标,在众筹结束后提取代币
 
-[合约文件: RefundableCrowdsale.sol](https://github.com/Fankouzu/MintCoin/blob/master/contracts/Crowdsale/RefundableCrowdsale.sol)
+[合约文件: RefundableCrowdsale.sol](https://github.com/darrenli6/MintCoin/blob/master/contracts/Crowdsale/RefundableCrowdsale.sol)
 
-[测试脚本1(到达众筹目标): RefundableCrowdsaleReached.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/RefundableCrowdsaleReached.js)
+[测试脚本1(到达众筹目标): RefundableCrowdsaleReached.js](https://github.com/darrenli6/MintCoin/blob/master/test/Crowdsale/RefundableCrowdsaleReached.js)
 
-[测试脚本2(没到达众筹目标): RefundableCrowdsaleNotReach.js](https://github.com/Fankouzu/MintCoin/blob/master/test/Crowdsale/RefundableCrowdsaleNotReach.js)
+[测试脚本2(没到达众筹目标): RefundableCrowdsaleNotReach.js](https://github.com/darrenli6/MintCoin/blob/master/test/Crowdsale/RefundableCrowdsaleNotReach.js)
 
-[布署脚本: 18_deploy_RefundableCrowdsale.js](https://github.com/Fankouzu/MintCoin/blob/master/migrations/18_deploy_RefundableCrowdsale.js)
+[布署脚本: 18_deploy_RefundableCrowdsale.js](https://github.com/darrenli6/MintCoin/blob/master/migrations/18_deploy_RefundableCrowdsale.js)
 
 ### 在布署合约时定义以下变量
 ```javascript
